@@ -1,7 +1,7 @@
 # My Excel Data Analytics Project
 ## Salary Dashboard    
 This project is from the 'Excel for Data Analytics' course by Luke Barousse. It visualises the median salaries for jobs in the data science field. The point is to provide job seekers with insights on how differents data science roles are compensated across different countries and with different schedule types.  
-The link of the file is [here](Project1_Salary_Dashboard.xlsx).
+The link of the file is [here](Project1_Salary_Dashboard/Project1_Salary_Dashboard.xlsx).
 
 ![capture_salary_dashboard](https://github.com/user-attachments/assets/105a45a0-73c9-41bd-9668-fa4adb1b4121)  
 ### Excel Skills used
