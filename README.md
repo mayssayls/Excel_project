@@ -53,13 +53,20 @@ Filtered Lists are used for Job titles , country , and schedule type job.
 
 This part linked in the file [here](Project2_Analysis.xlsx) is about analyzing the data science job market while answering the following questions related to salaries and in-demand skills:
 1-Do more skills lead to better salaries?
+
 2-What is the pay for the top 10 skills in data?
+
 3-What are the top skills of data professionals?
+
 4-What are the salaries in different regions?
+
 
 For this, various Excel tools were used to clean, transform, and analyze the data which are the following:
 
 -⚙️Power Query
+
 -📊Power Pivot
+
 -🧮DAX (Data Analysis Expressions)
+
 -📈Pivot tables & Pivot Charts 
