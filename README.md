@@ -52,6 +52,7 @@ Filtered Lists are used for Job titles , country , and schedule type job.
 ## Salary Analysis
 
 This part linked in the file [here](Project2_Analysis.xlsx) is about analyzing the data science job market while answering the following questions related to salaries and in-demand skills:
+
 1-Do more skills lead to better salaries?
 
 2-What is the pay for the top 10 skills in data?
@@ -63,10 +64,17 @@ This part linked in the file [here](Project2_Analysis.xlsx) is about analyzing t
 
 For this, various Excel tools were used to clean, transform, and analyze the data which are the following:
 
--⚙️Power Query
+- ⚙️Power Query
 
--📊Power Pivot
+- 📊Power Pivot
 
--🧮DAX (Data Analysis Expressions)
+- 🧮DAX (Data Analysis Expressions)
 
--📈Pivot tables & Pivot Charts 
+- 📈Pivot tables & Pivot Charts 
+
+### Data Jobs Dataset 
+The dataset in this project contains real-world data information from 2023 of the data science job including details about:
+- Job Titles
+- Locations
+- Salaries
+- Skills 
