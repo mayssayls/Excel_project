@@ -61,10 +61,11 @@ This part linked in the file [here](Project2_Analysis.xlsx) is about analyzing t
 
 4-What are the salaries in different regions?
 
+### Excel Tools
 
 For this, various Excel tools were used to clean, transform, and analyze the data which are the following:
 
-- ⚙️Power Query
+- ⚙️Power Query (ETL)
 
 - 📊Power Pivot
 
@@ -77,4 +78,13 @@ The dataset in this project contains real-world data information from 2023 of th
 - Job Titles
 - Locations
 - Salaries
-- Skills 
+- Skills
+
+1️⃣ Do more skills lead to better salaries?
+ For this i used Power Query as the main tool in order to extract, transform and load the data. First i extracted the the original dataset (data_salary_all.xlsx) and created two queries such as :
+ - data_jobs_salary that has all the fields of the jobs information
+ - second one is data_job_skills that has all skills per job_id
+i performed a cleaning on both queries as for the first one i did a simple cleanig that included reording columns , replacing values and changing types the applied steps are indicated in the screenshot above:
+[caption function](data_jobsalar.png)
+
+
