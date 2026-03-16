@@ -55,11 +55,12 @@ This part linked in the file [here](Project2_Analysis.xlsx) is about analyzing t
 
 1-Do more skills lead to better salaries?
 
-2-What is the pay for the top 10 skills in data?
+2-What are the top skills of data professionals?
 
-3-What are the top skills of data professionals?
+3-What are the salaries of data roles in different regions?
 
-4-What are the salaries in different regions?
+4-What is the pay for the top 10 skills in data?
+
 
 ### Excel Tools
 
@@ -82,7 +83,7 @@ The dataset in this project contains real-world data information from 2023 of th
 
 1️⃣ Do more skills lead to better salaries?
 
-#### Skill: ⚙️Power query & DAX
+#### Skills: ⚙️Power query & DAX
 
  ○ First i extracted the  original dataset (data_salary_all.xlsx) and created two queries such as :
  - data_jobs_salary that has all the fields of the jobs information
@@ -137,6 +138,26 @@ The dataset in this project contains real-world data information from 2023 of th
 ⭐ key insight:
 
    This trend highlights the importance of aquiring multiple skills in the data field, especially for professionals who aim for high salaries.
+   
+2️⃣ What are the top skills of data professionals?
 
+#### Skill: 📊 Power Pivot
+
+○ I created a Data model using the tables data_jobs_salary and data_jobs_skill that were already cleaned in power query
+○  I created a relationship between the two tables using the job_id column 
+ ![caption function](relationship.png)
+
+○ the power pivot menu allows the refining of data and the creation of measures
+ ![caption function](data_model.png)
+
+#### 📊 Analysis
+ ![caption function](skilllikelihood.png)
+
+🔎as we can see from the top 10 skills sorted from largest to smallest, SQl is the skill with the most commonly required skill, highlighting the fact that database management is fundemental in almost every data role
+
+🔎data roles are also increasingly requiring Python with its ML and AI Tools as well as cloud and big data tools
+
+⭐ key insight:
+   Most data roles require SQL and python as they represent a core fundemental for processing and analysis. 
 
 
