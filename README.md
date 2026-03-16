@@ -87,14 +87,15 @@ Skill: ⚙️Power query
  ○ First i extracted the  original dataset (data_salary_all.xlsx) and created two queries such as :
  - data_jobs_salary that has all the fields of the jobs information
  - second one is data_job_skills that has all skills per job_id
+   
  ○ I performed a cleaning on both queries, this step includes trimming whitespace, reording columns , replacing values, changing types and unpivoting columns. The applied steps are indicated in the screenshot below:
-[caption function](data_jobsalar.png)
+![caption function](data_jobsalar.png)
 
-[caption function](dataskills.png)
+![caption function](dataskills.png)
 
 ○ The next step is to load both of them into the workbook for further analysis
 
-[caption function](loaddatajobs.png)
+![caption function](loaddatajobs.png)
 
-[caption function](loaddataskills.png)
+![caption function](loaddataskills.png)
 
