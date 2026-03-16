@@ -88,7 +88,18 @@ The dataset in this project contains real-world data information from 2023 of th
  - data_jobs_salary that has all the fields of the jobs information
  - second one is data_job_skills that has all skills per job_id
    
- ○ I performed a cleaning on both queries, this step includes trimming whitespace, reording columns , replacing values, changing types and unpivoting columns. The applied steps are indicated in the screenshot below:
+ ○ I performed a cleaning on both queries, this step included:
+    ● trimming whitespace
+    
+    ● reording columns
+    
+    ● replacing values
+    
+    ● changing types 
+    
+    ● unpivoting columns
+    
+    The applied steps are indicated in the screenshot below:
 ![caption function](data_jobsalar.png)
 
 ![caption function](dataskills.png)
@@ -100,27 +111,31 @@ The dataset in this project contains real-world data information from 2023 of th
 ![caption function](loaddataskills.png)
 
 
-○ I put the job title in rows then perform some DAX measures that will allow me to obtain the required pivotchart. We need the median salary : 
-![caption function](dax median)
+○ I put the job title in rows then perform some DAX measures to support the analysis. We need the median salary : 
+![caption function](dax median.png)
 
 
 ○  We also need the job count and skills count to be able to calculate the skills per job values for each job title.
 
-![caption function](job count dax)
+![caption function](job count dax.png)
 
-![caption function](skills count dax)
+![caption function](skills count dax.png)
 
-![caption function](skills per job dax)
+![caption function](skills per job dax.png)
 
 #### 📊 Analysis
 
 ![caption function](firstanalysis.png)
 
-🔎 As we can see there is a postive correlation between the median salary and the number of skills required per job which suggest that the better paid the job the more it require a high number of skills.
+🔎 As we can see there is a postive correlation between the median salary and the number of skills required per job which suggest that roles that require a broader set of skills tend to offer higher salaries.
+
 🔎 we also notice that data engineer roles require more skills than the other data roles while they dont always pay better.
-🔎 jobs that require fewer skills, tend to offer lower salaries 
+
+🔎 jobs that require fewer skills, tend to offer lower salaries, indicating that skill diversity may lead to better compensations
+
 ⭐ key insight:
-   This trend highlights the importance of aquiring multiple skills, especially for people who aim for high salaries
+
+   This trend highlights the importance of aquiring multiple skills in the data field, especially for professionals who aim for high salaries.
 
 
 
