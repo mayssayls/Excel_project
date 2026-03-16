@@ -116,5 +116,11 @@ The dataset in this project contains real-world data information from 2023 of th
 
 ![caption function](firstanalysis.png)
 
+🔎 As we can see there is a postive correlation between the median salary and the number of skills required per job which suggest that the better paid the job the more it require a high number of skills.
+🔎 we also notice that data engineer roles require more skills than the other data roles while they dont always pay better.
+🔎 jobs that require fewer skills, tend to offer lower salaries 
+⭐ key insight:
+   This trend highlights the importance of aquiring multiple skills, especially for people who aim for high salaries
+
 
 
