@@ -112,6 +112,7 @@ The dataset in this project contains real-world data information from 2023 of th
 
 
 ○ I put the job title in rows then perform some DAX measures to support the analysis. We need the median salary : 
+
 ![caption function](dax median.png)
 
 
@@ -119,7 +120,7 @@ The dataset in this project contains real-world data information from 2023 of th
 
 ![caption function](job count dax.png)
 
-![caption function](skills count dax.png)
+![caption function](Excel_project/skills count dax.png)
 
 ![caption function](skills per job dax.png)
 
