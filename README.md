@@ -82,7 +82,7 @@ The dataset in this project contains real-world data information from 2023 of th
 
 1️⃣ Do more skills lead to better salaries?
 
-Skill: ⚙️Power query
+#### Skill: ⚙️Power query & DAX
 
  ○ First i extracted the  original dataset (data_salary_all.xlsx) and created two queries such as :
  - data_jobs_salary that has all the fields of the jobs information
@@ -98,4 +98,23 @@ Skill: ⚙️Power query
 ![caption function](loaddatajobs.png)
 
 ![caption function](loaddataskills.png)
+
+
+○ I put the job title in rows then perform some DAX measures that will allow me to obtain the required pivotchart. We need the median salary : 
+![caption function](dax median)
+
+
+○  We also need the job count and skills count to be able to calculate the skills per job values for each job title.
+
+![caption function](job count dax)
+
+![caption function](skills count dax)
+
+![caption function](skills per job dax)
+
+#### 📊 Analysis
+
+![caption function](firstanalysis.png)
+
+
 
