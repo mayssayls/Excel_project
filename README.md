@@ -196,6 +196,14 @@ The dataset in this project contains real-world data information from 2023 of th
 ○ A combo chart is then inserted with median slaries represented as a clusterd column and job count as a marker. 
 
 #### 📊 Analysis
+![caption function](skillchart.png)
+
+🔎 cloud and big data skills are the the skills with the higher median salaries, highlighting the fact that the data industry strongly rewards these skills.
+🔎 SQL and python also show high median salaries suggesting that they are well compensated across different data roles.
+🔎 Tableau and Excel have relatively lower median salaries, indicating that they are more associated with entry level jobs or less specialized roles.
+
+⭐ key insight:
+Mastering high value skills such as SQL, Python and big data tools are essential for professionals who aiming to increase their salaries.
 
  
    
