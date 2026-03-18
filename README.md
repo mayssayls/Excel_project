@@ -57,7 +57,7 @@ This part linked in the file [here](Project2_Analysis.xlsx) is about analyzing t
 
 2-What are the top skills of data professionals?
 
-3-What are the salaries of data roles in different regions?
+3-What is the salary for data roles in different regions?
 
 4-What is the pay for the top 10 skills in data?
 
@@ -133,9 +133,10 @@ The dataset in this project contains real-world data information from 2023 of th
 
 🔎 we also notice that data engineer roles require more skills than the other data roles while they dont always pay better.
 
-🔎 jobs that require fewer skills, tend to offer lower salaries, indicating that skill diversity may lead to better compensations
 
 ⭐ key insight:
+   
+    jobs that require fewer skills, tend to offer lower salaries, indicating that skill diversity may lead to better compensations
 
    This trend highlights the importance of aquiring multiple skills in the data field, especially for professionals who aim for high salaries.
    
@@ -153,11 +154,39 @@ The dataset in this project contains real-world data information from 2023 of th
 #### 📊 Analysis
  ![caption function](skilllikelihood.png)
 
-🔎as we can see from the top 10 skills sorted from largest to smallest, SQl is the skill with the most commonly required skill, highlighting the fact that database management is fundemental in almost every data role
+🔎as we can see from the top 10 skills sorted from largest to smallest, SQL is the skill with the most commonly required skill, highlighting the fact that database management is fundemental in almost every data role
 
 🔎data roles are also increasingly requiring Python with its ML and AI Tools as well as cloud and big data tools
 
 ⭐ key insight:
    Most data roles require SQL and python as they represent a core fundemental for processing and analysis. 
+
+3️⃣ What is the salary for data roles in different regions?
+#### Skills : 🧮 DAX & 📈 Pivot tables 
+○ I loaded the previous data model into a pivot table, i put the job_title field in rows and median salaries in values, those median salaries are: 
+
+  ● The median salary for all data roles calculated previously
+  ● The median salary of data roles in job pstings occuring only in the US and calculated using DAX as follows 
+  ![caption function](usformula.png)
+
+  ● The median salaries of all countries except the US:
+![caption function](nonusformula.png)
+
+○ A slicer was added to enable dynamic filtering, allowing users to view median salaries for specific countries.
+
+
+
+#### 📊 Analysis
+![caption function](region.png)
+
+🔎 The table provides an overview for both professionals and recruiters, giving them an idea of how different data roles are compensated across various regions.
+🔎 Regardless of the region, senior data engineers and senior data scientists tend to earn higher salaries than the other roles suggesting that advanced expertise is high demanded in the data field. 
+🔎 Us median salaries are relatively higher than non us median salaries, suggesting that the US is a major center for tech companies with strong demand for different data roles.
+
+⭐ key insight:
+   Salaries are influenced by both data roles and geographic regions.
+
+
+
 
 
