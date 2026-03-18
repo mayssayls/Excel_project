@@ -45,7 +45,7 @@ This formula reflects:
 ![valid](https://github.com/user-attachments/assets/0f2a0c02-7790-4b50-b015-b928d08191c5)  
 Filtered Lists are used for Job titles , country , and schedule type job.
  - Preventing invalid entries by only allowing selction from the predefined list.
- - Fcailitating data entry
+ - Facilitating data entry
  -  Making the dashboard more usable by enhancing and cleaning its overall structure.
 
  
@@ -135,6 +135,7 @@ The dataset in this project contains real-world data information from 2023 of th
 
 
 ⭐ key insight:
+
    jobs that require fewer skills, tend to offer lower salaries, indicating that skill diversity may lead to better compensations.
 
    This trend highlights the importance of aquiring multiple skills in the data field, especially for professionals who aim for high salaries.
@@ -183,7 +184,21 @@ The dataset in this project contains real-world data information from 2023 of th
 🔎 Us median salaries are relatively higher than non us median salaries, suggesting that the US is a major center for tech companies with strong demand for different data roles.
 
 ⭐ key insight:
-   Salaries are influenced by both data roles and geographic regions.
+   Salaries are influenced by both data roles and geographic region.
+
+ 4️⃣ What is the pay for the top 10 skills in data?
+
+#### Skill: 📈Pivot Charts & 🧮 DAX
+
+○ I created a pivot table where job_skills in the axis, and median salary and job count are in the values 
+○ Since the median salary is calculated from the data_jobs_salary table, DAX is used for crossfiltering to enable bidirectionnal filtering so that the median salary can be calculated for each skill. 
+![caption function](daxmedskill.png)
+○ A combo chart is then inserted with median slaries represented as a clusterd column and job count as a marker. 
+
+#### 📊 Analysis
+
+ 
+   
 
 
 
