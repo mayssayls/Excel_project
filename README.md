@@ -135,8 +135,7 @@ The dataset in this project contains real-world data information from 2023 of th
 
 
 ⭐ key insight:
-   
-    jobs that require fewer skills, tend to offer lower salaries, indicating that skill diversity may lead to better compensations
+   jobs that require fewer skills, tend to offer lower salaries, indicating that skill diversity may lead to better compensations.
 
    This trend highlights the importance of aquiring multiple skills in the data field, especially for professionals who aim for high salaries.
    
